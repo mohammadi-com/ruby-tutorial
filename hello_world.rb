@@ -21,3 +21,7 @@ puts ("my favourite age is: " + age)
 puts Math.sqrt(36)
 
 puts 10 / 7  # since both operands are integers, we get an integer as a result.
+
+puts "Please enter your name:"
+name = gets
+puts "Hi " + name + "!"
