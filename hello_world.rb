@@ -23,5 +23,5 @@ puts Math.sqrt(36)
 puts 10 / 7  # since both operands are integers, we get an integer as a result.
 
 puts "Please enter your name:"
-name = gets
+name = gets.chomp
 puts "Hi " + name + "!"
