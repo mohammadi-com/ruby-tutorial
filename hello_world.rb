@@ -27,6 +27,17 @@ puts "Please enter your name:"
 puts "Hi " + name + "!"
 
 # basic calculator
-a = gets.chomp().to_i
-b = gets.chomp().to_f
-puts a + b
+# a = gets.chomp().to_i
+# b = gets.chomp().to_f
+# puts a + b
+
+friends = Array.new
+friends[0] = "Mammad"
+friends[5] = "Sam"  # between the two values will be filled with nil
+puts friends
+puts friends.length()
+puts friends.include? "Sam"
+puts friends.reverse()  # doesn't do it in place
+puts friends
+# puts friends.sort()  # nil causes fail
+# puts friends
