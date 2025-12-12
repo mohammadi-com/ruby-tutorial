@@ -14,3 +14,10 @@ puts "Salam".index("a")
 puts "upcase".upcase()
 puts "DOWNCASE".downcase()
 
+puts "my favourite age is: " + age
+puts "my favourite age is: " + age.to_s
+puts ("my favourite age is: " + age)
+
+puts Math.sqrt(36)
+
+puts 10 / 7  # since both operands are integers, we get an integer as a result.
