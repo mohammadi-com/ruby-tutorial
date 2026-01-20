@@ -1,9 +1,9 @@
 def transform_numbers(nums) # one liner solution
-    return nums.map {|num| num % 2 == 0 ? num*2 : num+1}
+    nums.map {|num| num.even? ? num*2 : num+1}
 end
 
 def transform_numbers2(nums)
-    nums.map do |num|
+    nums.each do |num|
         if num % 2 == 0
             num *= 2
         else
@@ -13,7 +13,7 @@ def transform_numbers2(nums)
 end
 
 nums = [1, 2, 3, 4]
-result = transform_numbers2(nums)
+result = transform_numbers(nums)
 
 puts "Result: #{result}"
 puts "Original: #{nums.inspect}"
