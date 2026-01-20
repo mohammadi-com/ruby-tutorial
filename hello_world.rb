@@ -41,3 +41,9 @@ puts friends.reverse()  # doesn't do it in place
 puts friends
 # puts friends.sort()  # nil causes fail
 # puts friends
+
+states = {
+    "NY" => "New York",
+    "CA" => "California",
+    :MI => "Michigan"
+}
