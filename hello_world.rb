@@ -47,3 +47,5 @@ states = {
     "CA" => "California",
     :MI => "Michigan"
 }
+
+p states
