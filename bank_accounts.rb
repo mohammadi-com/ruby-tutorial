@@ -20,7 +20,8 @@ class BankAccount
   end
 
   def to_s
-    "#{owner}: £#{balance}"
+    # "#{owner}: £#{balance}"
+    format("%s: £%.2f", owner, balance)
   end
 
   private
